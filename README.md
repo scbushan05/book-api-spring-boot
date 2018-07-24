@@ -15,7 +15,7 @@ Build Restful CRUD API for a simple Book-Manage application using Spring MVC, My
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/scbushan05/book-api.git
+git clone https://github.com/scbushan05/book-api-spring-boot.git
 ```
 
 **2. Create Mysql database**
@@ -34,11 +34,16 @@ create database bookdb
 
 ```bash
 mvn package
+java -jar target/bookapi-0.0.1-SNAPSHOT.jar
 ```
 
-A new WAR file will be generated at `project/target/bookapi-0.0.1-SNAPSHOT.war`, just copy and deploy to your Tomcat.
+Alternatively, you can run the app without packaging it using -
 
-The app will start running at <http://localhost:8080/bookapi/>.
+```bash
+mvn spring-boot:run
+```
+
+The app will start running at <http://localhost:8080>.
 
 ## Explore Rest APIs
 
@@ -60,4 +65,4 @@ You can test them using postman or any other rest client.
 
 You can find the tutorial for this application on my blog -
 
-<http://bushansirgur.in/angular-2-and-spring-mvc-simple-crud-application/>
+<http://bushansirgur.in/>
