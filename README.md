@@ -1,4 +1,4 @@
-# BOOK API - Spring Boot, MySQL, JPA, Hibernate Rest API Tutorial
+# BOOK API - Spring Boot, MySQL, JPA Rest API Tutorial
 
 Build Restful CRUD API for a simple Book-Manage application using Spring MVC, Mysql and Hibernate.
 
